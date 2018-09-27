@@ -77,6 +77,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    
+
     private void searchWord(String wordSearch){
         data.clear();
         readFromAssets(getApplicationContext(), fileDictionary);
